@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap");
+
+body {
+  background: linear-gradient(180deg, #2f0b3a 27.26%, #9f81f7 96.03%);
+  font-family: "Fredoka", sans-serif;
+}
+
+.container {
+  background: #000000;
+  color: #ffffff;
+  margin: 40px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px #2e2e2e;
+  padding: 60px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 180px;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 500;
+  font-size: 46px;
+}
+
+.titulo h3 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 8px 16x;
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #330033 27.49%, #1a001a 83.19%);
+  margin-top: 25px;
+  padding: 25px;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+.projetos-item a {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+.light {
+  background: linear-gradient(180deg, #730099 27.26%, #a366ff 96.03%);
+}
+
+.light .container {
+  background: #e6e6e6;
+  color: #1a1a1a;
+}
+
+.light .projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #9f81f7 27.26%, #c8b7fa 96.03%);
+  margin-top: 25px;
+  padding: 25px;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+}
+
+.light .perfil-foto {
+  border-radius: 460px;
+  max-height: 180px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.light .tema button {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 8px 16x;
+  background: #e6e6e6;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+  border-radius: 100px;
+}
