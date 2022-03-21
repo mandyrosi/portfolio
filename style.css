@@ -26,7 +26,7 @@ body {
 .perfil-foto {
   border-radius: 460px;
   max-height: 180px;
-  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.1));
 }
 
 .titulo {
@@ -54,30 +54,30 @@ body {
   border-radius: 100px;
 }
 
-.projetos {
+.projeto {
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, #330033 27.49%, #1a001a 83.19%);
   margin-top: 25px;
   padding: 25px;
-  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.1);
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.1));
   border-radius: 15px;
 }
 
-.projetos-titulo {
+.projeto-titulo {
   list-style: none;
   font-weight: 500;
   font-size: 30px;
 }
 
-.projetos-item {
+.projeto-item {
   list-style-type: none;
   font-weight: 300;
   font-size: 28px;
   line-height: 50px;
 }
 
-.projetos-item a {
+.projeto-item a {
   color: #d9d9d9;
   text-decoration: none;
 }
@@ -91,7 +91,7 @@ body {
   color: #1a1a1a;
 }
 
-.light .projetos {
+.light .projeto {
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, #9f81f7 27.26%, #c8b7fa 96.03%);
@@ -104,7 +104,7 @@ body {
 .light .perfil-foto {
   border-radius: 460px;
   max-height: 180px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
 }
 
 .light .tema button {
